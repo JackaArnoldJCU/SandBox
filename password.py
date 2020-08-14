@@ -1,13 +1,16 @@
-def main():
+def get_password():
     password = input("Password:")
-    password_checker(password)
+    password_checker()
     print("*"*len(password))
 
-
-
-def password_checker(password):
+def password_checker():
+    global password
     if len(password) <= 0:
         print("Too Short")
         main()
 
-main()
+
+
+
+
+get_password()
