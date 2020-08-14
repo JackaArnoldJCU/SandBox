@@ -6,18 +6,23 @@ If sales are $1,000 or over, the bonus is 15%.
 sales = float(input("Enter sales: $"))
 
 
-def main():
+def question1():
 
     if sales >= 1000:
         print(sales * 1.15)
     elif sales <= 1000:
         print(sales * 1.1)
-        total_price = 0
+
+
+def question2():
+
+    total_price = 0
     items = int(input("Number of items:"))
-    for i in range (items):
+    for i in range(items):
         item_price = float(input("Price:"))
         total_price = total_price + item_price
-        print("Total is $",total_price)
+        print("Total is $", total_price)
 
 
-main()
+question1()
+question2()
