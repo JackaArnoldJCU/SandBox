@@ -1,1 +1,1 @@
-"""Jacka Arnold hehe"""
+"""Jacka Arnold """
